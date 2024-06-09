@@ -17,10 +17,13 @@ body{
 a{
     text-decoration: none;
     width: 500px;
-    color: white;
+    color: gray;
+}
+a:hover{
+    text-decoration: underline;
 }
 h1{
-    color: white;
+    color: black;
     position: center;
 }
 header{
@@ -36,7 +39,6 @@ header{
     z-index: 99;
     background-color: black;
 }
-
 .logo{
     width: 145px;
 }

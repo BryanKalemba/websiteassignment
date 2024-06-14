@@ -217,3 +217,23 @@ li{
     transform-origin: left;
     transform: scaleX(1);
 }
+@media (max-width: 990px){
+    .custom-section{
+        width: 500px;
+    }
+    .custom-section p{
+        font-size: 15px;
+    }
+    .custom-section img{
+        width: 700px;
+    }
+    section{
+        padding: 10px;
+    }
+    .custom-section2{
+        width: 400px;
+    }
+    li{
+        font-size: 11px;
+    }
+}
